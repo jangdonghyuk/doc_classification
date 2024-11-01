@@ -4,6 +4,7 @@
 
 ## 프로젝트 구조
 
+```
 pdf_extract_v2/
 ├── config.py # 디렉토리 설정
 ├── main.py # 메인 실행 파일
@@ -15,6 +16,7 @@ pdf_extract_v2/
 └── utils/
 ├── file_extract.py # 파일 추출 관련 유틸리티
 └── text_classifier.py # 텍스트 분류 관련 유틸리티
+```
 
 ## 기능 설명
 
@@ -45,4 +47,6 @@ pip install transformers torch pdfplumber hwp5txt
 
 1. 명령어:
 
+```bash
 python main.py
+```
